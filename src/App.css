@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.search {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+/* Default background */
+.App {
+  transition: background-color 0.5s ease;
+}
+
+/* Clear sky */
+.App.clear {
+  background-color: #4da8da; /* Light Blue */
+}
+
+/* Clouds */
+.App.clouds {
+  background-color: #bdc3c7; /* Silver */
+}
+
+/* Rain */
+.App.rain, .App.drizzle {
+  background-color: #5c97bf; /* Steel Blue */
+}
+
+/* Thunderstorm */
+.App.thunderstorm {
+  background-color: #616161; /* Dark Gray */
+}
+
+/* Snow */
+.App.snow {
+  background-color: #ecf0f1; /* Clouds */
+}
+
+/* Add more conditions and colors as needed */
